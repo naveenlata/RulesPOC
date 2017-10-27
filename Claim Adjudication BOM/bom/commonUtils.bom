@@ -1,0 +1,44 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Claim Adjudication BOM//CommonUtilities-xom"
+property uuid "8da261d0-bb84-478f-9d8c-496fef41165b"
+package hcsc.ccsp.util;
+
+
+public class DateUtils
+{
+    public DateUtils();
+    public static long differenceBetweenDates(java.util.Date arg1, java.util.Date arg2);
+    public static java.util.Date getEarlierDate(java.util.Date arg1, int arg2);
+    public static java.util.Date getEarlierTodayDate(int arg);
+    public static java.util.Date getLaterDate(java.util.Date arg1, int arg2);
+    public static java.util.Date getLaterTodayDate(int arg);
+}
+
+public class ErrorUtil
+{
+    public static java.util.Map Error_Map;
+    public ErrorUtil();
+    public static java.util.List checkForNulls(object arg) domain 0,* class string;
+    public static string getCodeFromErrorMap(string arg);
+    public static string getDescriptionFromErrorMap(string arg);
+    public static boolean isNull(object arg);
+    public static void loadErrorMap();
+}
+
+public class GenericUtils
+{
+    public GenericUtils();
+    public static string convertObjectToString(object arg);
+    public static long decimalToNumericConversion(double arg);
+}
+
+public class LoggerClass
+{
+    public static org.apache.log4j.Logger logger;
+    public LoggerClass();
+    public static void logLevelLogger(string arg1, string arg2);
+    public static void logRequestResponse(string arg1, string arg2);
+    public static void loggerMethod(object arg);
+}
+

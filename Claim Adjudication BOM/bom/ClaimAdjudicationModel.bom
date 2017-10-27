@@ -1,0 +1,314 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Claim Adjudication BOM//Claim Adjudication XOM"
+property uuid "e6e4f686-a0f2-4a81-854f-a4c9d1dbb65e"
+package com.hcsc.claimadjudication;
+
+
+public class Account
+{
+    public Account();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Accumulation
+{
+    public Accumulation();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class AdministrativePlan
+{
+    public com.hcsc.claimadjudication.CorePackage CorePackage;
+    public java.util.Collection CorePackageVariableValue domain 0,*;
+    public java.util.Collection ExcludedServiceCategory domain 0,*;
+    public java.util.Collection IncludedServiceCategory domain 0,*;
+    public AdministrativePlan();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class AdministrativePlanServiceCategory
+{
+    public AdministrativePlanServiceCategory();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class BaseService
+{
+    public BaseService();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Benefit
+{
+    public Benefit();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Claim
+{
+    public Claim();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ClaimAdjudicationRequest
+{
+    public com.hcsc.claimadjudication.Claim claim;
+    public com.hcsc.claimadjudication.AdministrativePlan plan;
+    public ClaimAdjudicationRequest();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ClaimAdjudicationResponse
+{
+    public com.hcsc.claimadjudication.Claim claim;
+    public java.lang.String[] messages;
+    public ClaimAdjudicationResponse();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Contract
+{
+    public Contract();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class CorePackage
+{
+    public java.util.Collection SubAssembly domain 0,*;
+    public CorePackage();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class CorePackageSubAssembly
+{
+    public CorePackageSubAssembly();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class CorePackageVariable
+{
+    public CorePackageVariable();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class CorePackageVariableValue
+{
+    public com.hcsc.claimadjudication.CorePackageVariable m_CorePackageVariable;
+    public CorePackageVariableValue();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class CostShare
+{
+    public CostShare();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class DrugTreatment
+{
+    public DrugTreatment();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ExplanationOfBenefits
+{
+    public ExplanationOfBenefits();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class HealthCareAccount
+{
+    public HealthCareAccount();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class LedgerEntry
+{
+    public LedgerEntry();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class LedgerHeader
+{
+    public LedgerHeader();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class LedgerSummary
+{
+    public LedgerSummary();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class MedicalCodeGroup
+{
+    public MedicalCodeGroup();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Member
+{
+    public Member();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Network
+{
+    public Network();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Plan
+{
+    public Plan();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class PlanAuthority
+{
+    public PlanAuthority();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class PlanAuthorityType
+{
+    public PlanAuthorityType();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Policy
+{
+    public Policy();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Pricing
+{
+    public Pricing();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Product
+{
+    public Product();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Provider
+{
+    public Provider();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class RecoverySubrogation
+{
+    public RecoverySubrogation();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Remittance
+{
+    public Remittance();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Service
+{
+    public Service();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ServiceCategory
+{
+    public com.hcsc.claimadjudication.BaseService m_BaseService;
+    public ServiceCategory();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ServiceCategoryConfiguration
+{
+    public ServiceCategoryConfiguration();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ServiceCategorySubAssembly
+{
+    public ServiceCategorySubAssembly();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class ServiceLine
+{
+    public ServiceLine();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class SubAssembly
+{
+    public java.util.Collection CorePackageVariableValue domain 0,*;
+    public java.util.Collection ServiceCategory domain 0,*;
+    public SubAssembly();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Subscriber
+{
+    public Subscriber();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class UMAuthorization
+{
+    public UMAuthorization();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+
+public class Vendor
+{
+    public Vendor();
+    public void finalize()
+                throws java.lang.Throwable;
+}
+

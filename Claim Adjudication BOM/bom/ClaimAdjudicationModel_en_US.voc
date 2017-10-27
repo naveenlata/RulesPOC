@@ -1,0 +1,196 @@
+# Vocabulary Properties
+uuid = 37be1287-5867-4288-9090-534e7b4de52b
+
+# com.hcsc.claimadjudication.Account
+com.hcsc.claimadjudication.Account#concept.label = account
+com.hcsc.claimadjudication.Account.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Accumulation
+com.hcsc.claimadjudication.Accumulation#concept.label = accumulation
+com.hcsc.claimadjudication.Accumulation.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.AdministrativePlan
+com.hcsc.claimadjudication.AdministrativePlan#concept.label = administrative plan
+com.hcsc.claimadjudication.AdministrativePlan.CorePackage#phrase.action = set the core package of {this} to {core package}
+com.hcsc.claimadjudication.AdministrativePlan.CorePackage#phrase.navigation = {core package} of {this}
+com.hcsc.claimadjudication.AdministrativePlan.CorePackageVariableValue#phrase.action = set the core package variable values of {this} to {core package variable value}
+com.hcsc.claimadjudication.AdministrativePlan.CorePackageVariableValue#phrase.navigation = {core package variable value} of {this}
+com.hcsc.claimadjudication.AdministrativePlan.ExcludedServiceCategory#phrase.action = set the excluded service categories of {this} to {excluded service category}
+com.hcsc.claimadjudication.AdministrativePlan.ExcludedServiceCategory#phrase.navigation = {excluded service category} of {this}
+com.hcsc.claimadjudication.AdministrativePlan.IncludedServiceCategory#phrase.action = set the included service categories of {this} to {included service category}
+com.hcsc.claimadjudication.AdministrativePlan.IncludedServiceCategory#phrase.navigation = {included service category} of {this}
+com.hcsc.claimadjudication.AdministrativePlan.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.AdministrativePlanServiceCategory
+com.hcsc.claimadjudication.AdministrativePlanServiceCategory#concept.label = administrative plan service category
+com.hcsc.claimadjudication.AdministrativePlanServiceCategory.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.BaseService
+com.hcsc.claimadjudication.BaseService#concept.label = base service
+com.hcsc.claimadjudication.BaseService.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Benefit
+com.hcsc.claimadjudication.Benefit#concept.label = benefit
+com.hcsc.claimadjudication.Benefit.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Claim
+com.hcsc.claimadjudication.Claim#concept.label = claim
+com.hcsc.claimadjudication.Claim.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.ClaimAdjudicationRequest
+com.hcsc.claimadjudication.ClaimAdjudicationRequest#concept.label = claim adjudication request
+com.hcsc.claimadjudication.ClaimAdjudicationRequest.claim#phrase.action = set the claim of {this} to {claim}
+com.hcsc.claimadjudication.ClaimAdjudicationRequest.claim#phrase.navigation = {claim} of {this}
+com.hcsc.claimadjudication.ClaimAdjudicationRequest.finalize()#phrase.action = finalize {this}
+com.hcsc.claimadjudication.ClaimAdjudicationRequest.plan#phrase.action = set the plan of {this} to {plan}
+com.hcsc.claimadjudication.ClaimAdjudicationRequest.plan#phrase.navigation = {plan} of {this}
+
+# com.hcsc.claimadjudication.ClaimAdjudicationResponse
+com.hcsc.claimadjudication.ClaimAdjudicationResponse#concept.label = claim adjudication response
+com.hcsc.claimadjudication.ClaimAdjudicationResponse.claim#phrase.action = set the claim of {this} to {claim}
+com.hcsc.claimadjudication.ClaimAdjudicationResponse.claim#phrase.navigation = {claim} of {this}
+com.hcsc.claimadjudication.ClaimAdjudicationResponse.finalize()#phrase.action = finalize {this}
+com.hcsc.claimadjudication.ClaimAdjudicationResponse.messages#phrase.action = set the messages of {this} to {message}
+com.hcsc.claimadjudication.ClaimAdjudicationResponse.messages#phrase.navigation = {message} of {this}
+
+# com.hcsc.claimadjudication.Contract
+com.hcsc.claimadjudication.Contract#concept.label = contract
+com.hcsc.claimadjudication.Contract.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.CorePackage
+com.hcsc.claimadjudication.CorePackage#concept.label = core package
+com.hcsc.claimadjudication.CorePackage.SubAssembly#phrase.action = set the sub assemblies of {this} to {sub assembly}
+com.hcsc.claimadjudication.CorePackage.SubAssembly#phrase.navigation = {sub assembly} of {this}
+com.hcsc.claimadjudication.CorePackage.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.CorePackageSubAssembly
+com.hcsc.claimadjudication.CorePackageSubAssembly#concept.label = core package sub assembly
+com.hcsc.claimadjudication.CorePackageSubAssembly.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.CorePackageVariable
+com.hcsc.claimadjudication.CorePackageVariable#concept.label = core package variable
+com.hcsc.claimadjudication.CorePackageVariable.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.CorePackageVariableValue
+com.hcsc.claimadjudication.CorePackageVariableValue#concept.label = core package variable value
+com.hcsc.claimadjudication.CorePackageVariableValue.finalize()#phrase.action = finalize {this}
+com.hcsc.claimadjudication.CorePackageVariableValue.m_CorePackageVariable#phrase.action = set the m core package variable of {this} to {m core package variable}
+com.hcsc.claimadjudication.CorePackageVariableValue.m_CorePackageVariable#phrase.navigation = {m core package variable} of {this}
+
+# com.hcsc.claimadjudication.CostShare
+com.hcsc.claimadjudication.CostShare#concept.label = cost share
+com.hcsc.claimadjudication.CostShare.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.DrugTreatment
+com.hcsc.claimadjudication.DrugTreatment#concept.label = drug treatment
+com.hcsc.claimadjudication.DrugTreatment.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.ExplanationOfBenefits
+com.hcsc.claimadjudication.ExplanationOfBenefits#concept.label = explanation of benefits
+com.hcsc.claimadjudication.ExplanationOfBenefits.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.HealthCareAccount
+com.hcsc.claimadjudication.HealthCareAccount#concept.label = health care account
+com.hcsc.claimadjudication.HealthCareAccount.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.LedgerEntry
+com.hcsc.claimadjudication.LedgerEntry#concept.label = ledger entry
+com.hcsc.claimadjudication.LedgerEntry.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.LedgerHeader
+com.hcsc.claimadjudication.LedgerHeader#concept.label = ledger header
+com.hcsc.claimadjudication.LedgerHeader.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.LedgerSummary
+com.hcsc.claimadjudication.LedgerSummary#concept.label = ledger summary
+com.hcsc.claimadjudication.LedgerSummary.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.MedicalCodeGroup
+com.hcsc.claimadjudication.MedicalCodeGroup#concept.label = medical code group
+com.hcsc.claimadjudication.MedicalCodeGroup.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Member
+com.hcsc.claimadjudication.Member#concept.label = member
+com.hcsc.claimadjudication.Member.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Network
+com.hcsc.claimadjudication.Network#concept.label = network
+com.hcsc.claimadjudication.Network.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Plan
+com.hcsc.claimadjudication.Plan#concept.label = plan
+com.hcsc.claimadjudication.Plan.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.PlanAuthority
+com.hcsc.claimadjudication.PlanAuthority#concept.label = plan authority
+com.hcsc.claimadjudication.PlanAuthority.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.PlanAuthorityType
+com.hcsc.claimadjudication.PlanAuthorityType#concept.label = plan authority type
+com.hcsc.claimadjudication.PlanAuthorityType.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Policy
+com.hcsc.claimadjudication.Policy#concept.label = policy
+com.hcsc.claimadjudication.Policy.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Pricing
+com.hcsc.claimadjudication.Pricing#concept.label = pricing
+com.hcsc.claimadjudication.Pricing.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Product
+com.hcsc.claimadjudication.Product#concept.label = product
+com.hcsc.claimadjudication.Product.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Provider
+com.hcsc.claimadjudication.Provider#concept.label = provider
+com.hcsc.claimadjudication.Provider.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.RecoverySubrogation
+com.hcsc.claimadjudication.RecoverySubrogation#concept.label = recovery subrogation
+com.hcsc.claimadjudication.RecoverySubrogation.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Remittance
+com.hcsc.claimadjudication.Remittance#concept.label = remittance
+com.hcsc.claimadjudication.Remittance.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Service
+com.hcsc.claimadjudication.Service#concept.label = service
+com.hcsc.claimadjudication.Service.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.ServiceCategory
+com.hcsc.claimadjudication.ServiceCategory#concept.label = service category
+com.hcsc.claimadjudication.ServiceCategory.finalize()#phrase.action = finalize {this}
+com.hcsc.claimadjudication.ServiceCategory.m_BaseService#phrase.action = set the m base service of {this} to {m base service}
+com.hcsc.claimadjudication.ServiceCategory.m_BaseService#phrase.navigation = {m base service} of {this}
+
+# com.hcsc.claimadjudication.ServiceCategoryConfiguration
+com.hcsc.claimadjudication.ServiceCategoryConfiguration#concept.label = service category configuration
+com.hcsc.claimadjudication.ServiceCategoryConfiguration.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.ServiceCategorySubAssembly
+com.hcsc.claimadjudication.ServiceCategorySubAssembly#concept.label = service category sub assembly
+com.hcsc.claimadjudication.ServiceCategorySubAssembly.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.ServiceLine
+com.hcsc.claimadjudication.ServiceLine#concept.label = service line
+com.hcsc.claimadjudication.ServiceLine.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.SubAssembly
+com.hcsc.claimadjudication.SubAssembly#concept.label = sub assembly
+com.hcsc.claimadjudication.SubAssembly.CorePackageVariableValue#phrase.action = set the core package variable values of {this} to {core package variable value}
+com.hcsc.claimadjudication.SubAssembly.CorePackageVariableValue#phrase.navigation = {core package variable value} of {this}
+com.hcsc.claimadjudication.SubAssembly.ServiceCategory#phrase.action = set the service categories of {this} to {service category}
+com.hcsc.claimadjudication.SubAssembly.ServiceCategory#phrase.navigation = {service category} of {this}
+com.hcsc.claimadjudication.SubAssembly.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Subscriber
+com.hcsc.claimadjudication.Subscriber#concept.label = subscriber
+com.hcsc.claimadjudication.Subscriber.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.UMAuthorization
+com.hcsc.claimadjudication.UMAuthorization#concept.label = UMAuthorization
+com.hcsc.claimadjudication.UMAuthorization.finalize()#phrase.action = finalize {this}
+
+# com.hcsc.claimadjudication.Vendor
+com.hcsc.claimadjudication.Vendor#concept.label = vendor
+com.hcsc.claimadjudication.Vendor.finalize()#phrase.action = finalize {this}

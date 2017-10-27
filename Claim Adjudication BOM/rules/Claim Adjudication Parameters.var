@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Claim Adjudication Parameters</name>
+  <uuid>7a3f35ae-411c-453f-bd0b-c822a8d64457</uuid>
+  <variables name="claimAdjudicationRequest" type="com.hcsc.claimadjudication.ClaimAdjudicationRequest" initialValue="" verbalization="The Claim Adjudication Request"/>
+  <variables name="claimAdjudicationResponse" type="com.hcsc.claimadjudication.ClaimAdjudicationResponse" initialValue="" verbalization="The Claim Adjudication Response"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,31 @@
+# Vocabulary Properties
+uuid = a8238734-234c-4b5a-a143-a66e5147ed02
+
+# hcsc.ccsp.util.DateUtils
+hcsc.ccsp.util.DateUtils#concept.label = date utils
+hcsc.ccsp.util.DateUtils.differenceBetweenDates(java.util.Date,java.util.Date)#phrase.navigation = date utils.differenceBetweenDates({0}, {1})
+hcsc.ccsp.util.DateUtils.getEarlierDate(java.util.Date,int)#phrase.navigation = date utils.getEarlierDate({0}, {1})
+hcsc.ccsp.util.DateUtils.getEarlierTodayDate(int)#phrase.navigation = date utils.getEarlierTodayDate({0})
+hcsc.ccsp.util.DateUtils.getLaterDate(java.util.Date,int)#phrase.navigation = date utils.getLaterDate({0}, {1})
+hcsc.ccsp.util.DateUtils.getLaterTodayDate(int)#phrase.navigation = date utils.getLaterTodayDate({0})
+
+# hcsc.ccsp.util.ErrorUtil
+hcsc.ccsp.util.ErrorUtil#concept.label = error util
+hcsc.ccsp.util.ErrorUtil.Error_Map#phrase.action = set the error map to {error map}
+hcsc.ccsp.util.ErrorUtil.Error_Map#phrase.navigation = the error map
+hcsc.ccsp.util.ErrorUtil.checkForNulls(java.lang.Object)#phrase.navigation = error util.checkForNulls({0})
+hcsc.ccsp.util.ErrorUtil.getCodeFromErrorMap(java.lang.String)#phrase.navigation = error util.getCodeFromErrorMap({0})
+hcsc.ccsp.util.ErrorUtil.getDescriptionFromErrorMap(java.lang.String)#phrase.navigation = error util.getDescriptionFromErrorMap({0})
+hcsc.ccsp.util.ErrorUtil.isNull(java.lang.Object)#phrase.navigation = error util.isNull({0})
+hcsc.ccsp.util.ErrorUtil.loadErrorMap()#phrase.action = loadErrorMap
+
+# hcsc.ccsp.util.GenericUtils
+hcsc.ccsp.util.GenericUtils#concept.label = generic utils
+hcsc.ccsp.util.GenericUtils.convertObjectToString(java.lang.Object)#phrase.navigation = generic utils.convertObjectToString({0})
+hcsc.ccsp.util.GenericUtils.decimalToNumericConversion(double)#phrase.navigation = generic utils.decimalToNumericConversion({0})
+
+# hcsc.ccsp.util.LoggerClass
+hcsc.ccsp.util.LoggerClass#concept.label = logger class
+hcsc.ccsp.util.LoggerClass.logLevelLogger(java.lang.String,java.lang.String)#phrase.action = logger class.logLevelLogger({0}, {1})
+hcsc.ccsp.util.LoggerClass.logRequestResponse(java.lang.String,java.lang.String)#phrase.action = logger class.logRequestResponse({0}, {1})
+hcsc.ccsp.util.LoggerClass.loggerMethod(java.lang.Object)#phrase.action = logger class.loggerMethod({0})

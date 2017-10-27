@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ErrorMap>
+	<ErrorDetail>
+		<ErrorCode>2000</ErrorCode>
+		<ErrorDescription>A</ErrorDescription>
+	</ErrorDetail>
+	<ErrorDetail>
+		<ErrorCode>2001</ErrorCode>
+		<ErrorDescription>A</ErrorDescription>
+	</ErrorDetail>
+	<ErrorDetail>
+		<ErrorCode>2002</ErrorCode>
+		<ErrorDescription>A</ErrorDescription>
+	</ErrorDetail>
+	<ErrorDetail>
+		<ErrorCode>2003</ErrorCode>
+		<ErrorDescription>A</ErrorDescription>
+	</ErrorDetail>
+	<ErrorDetail>
+		<ErrorCode>2004</ErrorCode>
+		<ErrorDescription>A</ErrorDescription>
+	</ErrorDetail>
+	<ErrorDetail>
+		<ErrorCode>2005</ErrorCode>
+		<ErrorDescription>A</ErrorDescription>
+	</ErrorDetail>
+</ErrorMap>
